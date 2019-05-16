@@ -1,6 +1,6 @@
 # umeng_uapp
 
-A new flutter plugin project.
+Umeng U-App SDK for Flutter.
 
 ## Usage
 

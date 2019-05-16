@@ -32,7 +32,7 @@ android {
 }
 
 dependencies {
-    compileOnly files('libs/flutter.jar')
+//    compileOnly files('libs/flutter.jar')
     implementation  'com.umeng.umsdk:analytics:8.0.2'
     implementation  'com.umeng.umsdk:common:2.0.2'
     implementation  'com.umeng.umsdk:utdid:1.1.5.3'
