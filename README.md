@@ -2,6 +2,16 @@
 
 A new flutter plugin project.
 
+## Usage
+
+```dart
+import 'package:umeng_uapp/umeng_uapp.dart';
+
+UmengUapp.init("5b4ef081f29d9868b9000189");
+```
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter
