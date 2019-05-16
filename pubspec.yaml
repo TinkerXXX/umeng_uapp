@@ -2,7 +2,7 @@ name: umeng_uapp
 description: Umeng U-App SDK for Flutter.
 version: 1.0.0
 author: Tinker
-homepage:
+homepage: https://github.com/TinkerXXX/umeng_uapp
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
