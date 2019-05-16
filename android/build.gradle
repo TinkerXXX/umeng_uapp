@@ -1,5 +1,6 @@
 group 'com.fuman.flutter.umeng_uapp'
 version '1.0-SNAPSHOT'
+
 buildscript {
     repositories {
         google()
@@ -11,6 +12,7 @@ buildscript {
         classpath 'com.android.tools.build:gradle:3.4.1'
     }
 }
+
 rootProject.allprojects {
     repositories {
         google()
@@ -18,7 +20,9 @@ rootProject.allprojects {
         maven { url 'https://dl.bintray.com/umsdk/release' }
     }
 }
+
 apply plugin: 'com.android.library'
+
 android {
     compileSdkVersion 28
 
@@ -32,7 +36,7 @@ android {
 }
 
 dependencies {
-    compileOnly files('libs/flutter.jar')
+//    compileOnly files('libs/flutter.jar')
     implementation  'com.umeng.umsdk:analytics:8.0.2'
     implementation  'com.umeng.umsdk:common:2.0.2'
     implementation  'com.umeng.umsdk:utdid:1.1.5.3'

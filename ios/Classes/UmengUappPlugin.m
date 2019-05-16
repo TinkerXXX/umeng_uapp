@@ -1,7 +1,6 @@
 #import "UmengUappPlugin.h"
 #import <UMCommon/UMCommon.h>
 
-
 @implementation UmengUappPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
